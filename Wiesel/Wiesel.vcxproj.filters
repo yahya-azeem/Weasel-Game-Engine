@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Weasel Engine">
+      <UniqueIdentifier>{019078a4-4014-4c9c-8746-bc92f693c3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Window">
+      <UniqueIdentifier>{db1baf29-15b8-4fce-9d24-d626b06c948f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Window\Win">
+      <UniqueIdentifier>{4a3948aa-9fd3-4812-b9e8-a8f398a0a4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Window\Weasel Exception">
+      <UniqueIdentifier>{9569057f-d117-47ba-a34d-fd92edc54200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Weasel Engine\Weasel Input">
+      <UniqueIdentifier>{6f41e24a-d6e0-4df4-bd56-09a1a11b18eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Weasel Input\Keyboard">
+      <UniqueIdentifier>{e7281566-6618-45f0-992a-02b67442f6db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Weasel Input\Mouse">
+      <UniqueIdentifier>{a3d794fb-4e17-45c6-aad7-9409982abad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Weasel Input\Xinput">
+      <UniqueIdentifier>{0ba839fa-8d2e-4360-918f-c230684ede8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\App">
+      <UniqueIdentifier>{ca4c25e2-1be8-4c79-942a-61ce201a3361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Timer">
+      <UniqueIdentifier>{45469e66-61ba-436e-8baf-8b7a5d1e4dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\TODO rewrite DirectX12 cores code to make more neat">
+      <UniqueIdentifier>{9af0f10c-6fa6-47aa-a0a9-c901740b6d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics">
+      <UniqueIdentifier>{1c9ba53e-4f8d-4d83-b529-53bc44f8220a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Shaders">
+      <UniqueIdentifier>{c80fec0d-f1d6-419f-80fd-edcbdc88239c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\WeaselMath">
+      <UniqueIdentifier>{28c792a6-edfa-41bc-be63-6c260ac81546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Shaders\ColorBlend">
+      <UniqueIdentifier>{e5c209a7-9e13-4989-baeb-8c67235f3567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Shaders\ColorIndex">
+      <UniqueIdentifier>{3a5b15e9-f2a7-4d71-a20d-36b255f4e705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Shaders\Texture">
+      <UniqueIdentifier>{071db79e-5bd1-459a-a822-2254cf82589a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Bindable">
+      <UniqueIdentifier>{6f99ce3d-1297-4f47-836d-1ad61aa5c389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Bindable\Bindable">
+      <UniqueIdentifier>{19e19915-3d13-45c7-a559-f7e94821c279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Bindable\IndexBuffer">
+      <UniqueIdentifier>{21d33d46-ef54-4de8-a415-c03a5121beb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Bindable\InputLayout">
+      <UniqueIdentifier>{881f03cc-d79e-41d0-9f0b-d9ea574e11f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Bindable\PixelShader">
+      <UniqueIdentifier>{d96d087b-99a2-439c-9de6-bae33f99e965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Bindable\Topology">
+      <UniqueIdentifier>{612f94f3-db47-41e7-b448-02d32aad7d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Bindable\TransformCbuf">
+      <UniqueIdentifier>{0715565d-1557-4acd-a124-912e1a5323b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Bindable\VertexBuffer">
+      <UniqueIdentifier>{d4aa014e-ca5e-491a-887d-fe5df346b263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Bindable\VertexShader">
+      <UniqueIdentifier>{60f0e494-6523-4dc0-94d7-055494fd4d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Bindable\BindableBase">
+      <UniqueIdentifier>{6ba12004-1c75-4674-bd37-ca9100a3010d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Bindable\ConstantBuffers">
+      <UniqueIdentifier>{8446ba51-868d-4df5-94e5-f8f3162360e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Bindable\Texture">
+      <UniqueIdentifier>{e3ad4a20-c80c-4183-8f1a-975430fc6ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Bindable\Sampler">
+      <UniqueIdentifier>{a230829f-d59c-4987-89ab-f705843d3c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Drawable">
+      <UniqueIdentifier>{c14abcd6-3eb6-459e-b6fa-22aaa99bef16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Drawable\Drawable">
+      <UniqueIdentifier>{ed7d7c51-02d4-4f22-8fcb-479c65354174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Drawable\Box">
+      <UniqueIdentifier>{b065d6b4-e5af-47a7-8308-29837648b90d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Drawable\Cone">
+      <UniqueIdentifier>{46a47f7f-d3aa-41a6-8fc4-11b7b2ea1e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Drawable\Cube">
+      <UniqueIdentifier>{210ca2a8-6784-497d-a75d-47d4ccc4ccc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Drawable\IndexedTrangleList">
+      <UniqueIdentifier>{785b9e0d-e9d6-455f-aad3-044ba906f9be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Drawable\Plane">
+      <UniqueIdentifier>{0fa12815-dcaf-4710-9938-e5c29b8617bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Drawable\Prism">
+      <UniqueIdentifier>{3ba9ec8f-93e0-4679-9045-f1983b8683ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Drawable\Sphere">
+      <UniqueIdentifier>{a3183773-8689-41e3-a7d5-ddff7126b725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Drawable\Pyramid">
+      <UniqueIdentifier>{893164ac-fedb-4e77-aead-7670be695ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Drawable\Melon">
+      <UniqueIdentifier>{c4ef0d54-1832-4244-a8b9-16ff911e5671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Drawable\Sheet">
+      <UniqueIdentifier>{b66c927c-9200-420c-8a53-345b32718019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Drawable\SkinnedBox">
+      <UniqueIdentifier>{c302dd03-2264-4883-a3c8-e00fbed366e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\DXER">
+      <UniqueIdentifier>{9ac2c604-addf-4ac0-b463-e91ae9bbbdd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\DxgiInfoManager">
+      <UniqueIdentifier>{f9404515-ec27-4912-8488-f5fcac1930ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\GDIPlusManager">
+      <UniqueIdentifier>{9b3439c1-ea4d-4a70-9786-bd663104eb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\Surface">
+      <UniqueIdentifier>{d4efa847-b9f3-4a2f-980b-a4448b3cffcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\TODO add the same debug functionality to DirectX12">
+      <UniqueIdentifier>{a7a6fa45-68ed-4f60-8dc5-2bff51726225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\TODO fix the error in DirectX11Core.cpp">
+      <UniqueIdentifier>{0c5251ed-f5fc-4143-a86d-1c700b1b1bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\GraphicsApi">
+      <UniqueIdentifier>{708df14c-806b-4dc1-871f-37201c06239b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\GraphicsApi\DirectX11">
+      <UniqueIdentifier>{070b0a2b-0439-430f-867a-8a5202de0042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\GraphicsApi\DirectX12">
+      <UniqueIdentifier>{3b3f8987-e7c0-484b-95eb-56d826c62397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Graphics\GraphicsApi\DirectX12\Reorganize DirectX12 files and add graphics api abractiojn">
+      <UniqueIdentifier>{2ed5bd30-efd0-4acf-97e9-3d85a4ec5c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="19:58">
+      <UniqueIdentifier>{ae864de4-0d66-4111-b5e5-a84c6b6aa43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\Camera">
+      <UniqueIdentifier>{0646c343-10ed-46c7-b73c-1529dd8c031c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\GUI">
+      <UniqueIdentifier>{3d070fee-39b7-4623-9edd-551032d54f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\GUI\imgui">
+      <UniqueIdentifier>{0047c855-f436-4191-9cec-659f13999ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weasel Engine\GUI\imguiwrapperclass">
+      <UniqueIdentifier>{972a45d3-f892-4209-ad0d-0ea6814f1fdb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>Weasel Engine\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Weasel Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Weasel Engine\Window\Weasel Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Weasel Engine\Weasel Input\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Weasel Engine\Weasel Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Xinput.cpp">
+      <Filter>Weasel Engine\Weasel Input\Xinput</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Weasel Engine\App</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaselTimer.cpp">
+      <Filter>Weasel Engine\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX11\DirectX11Core.cpp">
+      <Filter>Weasel Engine\Graphics\GraphicsApi\DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX12\DirectX12Core.cpp">
+      <Filter>Weasel Engine\Graphics\GraphicsApi\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="dxerr.cpp">
+      <Filter>Weasel Engine\Graphics\DXER</Filter>
+    </ClCompile>
+    <ClCompile Include="DxgiInfoManager.cpp">
+      <Filter>Weasel Engine\Graphics\DxgiInfoManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Bindable.cpp">
+      <Filter>Weasel Engine\Graphics\Bindable\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Weasel Engine\Graphics\Bindable\IndexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayout.cpp">
+      <Filter>Weasel Engine\Graphics\Bindable\InputLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>Weasel Engine\Graphics\Bindable\PixelShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Topology.cpp">
+      <Filter>Weasel Engine\Graphics\Bindable\Topology</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformCbuf.cpp">
+      <Filter>Weasel Engine\Graphics\Bindable\TransformCbuf</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Weasel Engine\Graphics\Bindable\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>Weasel Engine\Graphics\Bindable\VertexShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable.cpp">
+      <Filter>Weasel Engine\Graphics\Drawable\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Weasel Engine\Graphics\Drawable\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramid.cpp">
+      <Filter>Weasel Engine\Graphics\Drawable\Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="Melon.cpp">
+      <Filter>Weasel Engine\Graphics\Drawable\Melon</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Weasel Engine\Graphics\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="GDIPlusManager.cpp">
+      <Filter>Weasel Engine\Graphics\GDIPlusManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Weasel Engine\Graphics\Bindable\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>Weasel Engine\Graphics\Bindable\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Sheet.cpp">
+      <Filter>Weasel Engine\Graphics\Drawable\Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedBox.cpp">
+      <Filter>Weasel Engine\Graphics\Drawable\SkinnedBox</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsApi.cpp">
+      <Filter>Weasel Engine\Graphics\GraphicsApi</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaselEnginelibs\imgui\imgui.cpp">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaselEnginelibs\imgui\imgui_demo.cpp">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaselEnginelibs\imgui\imgui_draw.cpp">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaselEnginelibs\imgui\imgui_impl_dx11.cpp">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaselEnginelibs\imgui\imgui_impl_win32.cpp">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaselEnginelibs\imgui\imgui_widgets.cpp">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImguiManager.cpp">
+      <Filter>Weasel Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Weasel Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiWrapper.cpp">
+      <Filter>Weasel Engine\GUI\imguiwrapperclass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Weasel Engine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Win.h">
+      <Filter>Weasel Engine\Window\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Weasel Engine\Window\Weasel Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Weasel Engine\Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Weasel Engine\Weasel Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Weasel Engine\Weasel Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Xinput.h">
+      <Filter>Weasel Engine\Weasel Input\Xinput</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Weasel Engine\App</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaselTimer.h">
+      <Filter>Weasel Engine\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11\DirectX11Core.h">
+      <Filter>Weasel Engine\Graphics\GraphicsApi\DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX12\DirectX12Core.h">
+      <Filter>Weasel Engine\Graphics\GraphicsApi\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="dxerr.h">
+      <Filter>Weasel Engine\Graphics\DXER</Filter>
+    </ClInclude>
+    <ClInclude Include="DxgiInfoManager.h">
+      <Filter>Weasel Engine\Graphics\DxgiInfoManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX12\d3dx12.h">
+      <Filter>Weasel Engine\Graphics\GraphicsApi\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsThrowMacros.h">
+      <Filter>Weasel Engine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Bindable.h">
+      <Filter>Weasel Engine\Graphics\Bindable\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Weasel Engine\Graphics\Bindable\IndexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayout.h">
+      <Filter>Weasel Engine\Graphics\Bindable\InputLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.h">
+      <Filter>Weasel Engine\Graphics\Bindable\PixelShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Topology.h">
+      <Filter>Weasel Engine\Graphics\Bindable\Topology</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformCbuf.h">
+      <Filter>Weasel Engine\Graphics\Bindable\TransformCbuf</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Weasel Engine\Graphics\Bindable\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>Weasel Engine\Graphics\Bindable\VertexShader</Filter>
+    </ClInclude>
+    <ClInclude Include="BindableBase.h">
+      <Filter>Weasel Engine\Graphics\Bindable\BindableBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffers.h">
+      <Filter>Weasel Engine\Graphics\Bindable\ConstantBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>Weasel Engine\Graphics\Drawable\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Weasel Engine\Graphics\Drawable\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableBase.h">
+      <Filter>Weasel Engine\Graphics\Drawable\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaselMath.h">
+      <Filter>Weasel Engine\WeaselMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Cone.h">
+      <Filter>Weasel Engine\Graphics\Drawable\Cone</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Weasel Engine\Graphics\Drawable\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedTriangleList.h">
+      <Filter>Weasel Engine\Graphics\Drawable\IndexedTrangleList</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Weasel Engine\Graphics\Drawable\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="Prism.h">
+      <Filter>Weasel Engine\Graphics\Drawable\Prism</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Weasel Engine\Graphics\Drawable\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Pyramid.h">
+      <Filter>Weasel Engine\Graphics\Drawable\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="Melon.h">
+      <Filter>Weasel Engine\Graphics\Drawable\Melon</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Weasel Engine\Graphics\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="GDIPlusManager.h">
+      <Filter>Weasel Engine\Graphics\GDIPlusManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Weasel Engine\Graphics\Bindable\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>Weasel Engine\Graphics\Bindable\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Sheet.h">
+      <Filter>Weasel Engine\Graphics\Drawable\Sheet</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedBox.h">
+      <Filter>Weasel Engine\Graphics\Drawable\SkinnedBox</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsThrowMacros.h">
+      <Filter>Weasel Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Weasel Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsApi.h">
+      <Filter>Weasel Engine\Graphics\GraphicsApi</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaselGraphics.h">
+      <Filter>Weasel Engine\Graphics\GraphicsApi</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaselEnginelibs\imgui\imgui.h">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaselEnginelibs\imgui\imgui_impl_dx11.h">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaselEnginelibs\imgui\imgui_impl_win32.h">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaselEnginelibs\imgui\imgui_internal.h">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaselEnginelibs\imgui\imstb_rectpack.h">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaselEnginelibs\imgui\imstb_textedit.h">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaselEnginelibs\imgui\imstb_truetype.h">
+      <Filter>Weasel Engine\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImguiManager.h">
+      <Filter>Weasel Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Weasel Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiWrapper.h">
+      <Filter>Weasel Engine\GUI\imguiwrapperclass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Wiesel.rc">
+      <Filter>Weasel Engine\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Wiesel.ico">
+      <Filter>Weasel Engine\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXGetErrorString.inl">
+      <Filter>Weasel Engine\Graphics\DXER</Filter>
+    </None>
+    <None Include="DXGetErrorDescription.inl">
+      <Filter>Weasel Engine\Graphics\DXER</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ColorBlendVS.hlsl">
+      <Filter>Weasel Engine\Graphics\Shaders\ColorBlend</Filter>
+    </FxCompile>
+    <FxCompile Include="ColorBlendPS.hlsl">
+      <Filter>Weasel Engine\Graphics\Shaders\ColorBlend</Filter>
+    </FxCompile>
+    <FxCompile Include="ColorIndexVS.hlsl">
+      <Filter>Weasel Engine\Graphics\Shaders\ColorIndex</Filter>
+    </FxCompile>
+    <FxCompile Include="ColorIndexPS.hlsl">
+      <Filter>Weasel Engine\Graphics\Shaders\ColorIndex</Filter>
+    </FxCompile>
+    <FxCompile Include="TexturePS.hlsl">
+      <Filter>Weasel Engine\Graphics\Shaders\Texture</Filter>
+    </FxCompile>
+    <FxCompile Include="TextureVS.hlsl">
+      <Filter>Weasel Engine\Graphics\Shaders\Texture</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
