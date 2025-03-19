@@ -1,4 +1,5 @@
-I applogies for disgusting nasty code comments as this was made back when I was 13 years old.
+**I applogies for disgusting nasty code comments as this was made back when I was 13 years old.
+Take precaution, please, IM SORRY.**
 
 
 donwload release and extract it and run the program
